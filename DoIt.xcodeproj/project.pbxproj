@@ -13,6 +13,7 @@
 		4B11CFDC1E2FB2830061FE48 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B11CFDA1E2FB2830061FE48 /* DoIt.xcdatamodeld */; };
 		4B11CFDE1E2FB2830061FE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B11CFDD1E2FB2830061FE48 /* Assets.xcassets */; };
 		4B11CFE11E2FB2830061FE48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B11CFDF1E2FB2830061FE48 /* LaunchScreen.storyboard */; };
+		4B11CFE91E311B2D0061FE48 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B11CFE81E311B2D0061FE48 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4B11CFDD1E2FB2830061FE48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B11CFE01E2FB2830061FE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B11CFE21E2FB2830061FE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B11CFE81E311B2D0061FE48 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				4B11CFD31E2FB2830061FE48 /* AppDelegate.swift */,
 				4B11CFD51E2FB2830061FE48 /* ViewController.swift */,
+				4B11CFE81E311B2D0061FE48 /* Task.swift */,
 				4B11CFD71E2FB2830061FE48 /* Main.storyboard */,
 				4B11CFDD1E2FB2830061FE48 /* Assets.xcassets */,
 				4B11CFDF1E2FB2830061FE48 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B11CFE91E311B2D0061FE48 /* Task.swift in Sources */,
 				4B11CFDC1E2FB2830061FE48 /* DoIt.xcdatamodeld in Sources */,
 				4B11CFD61E2FB2830061FE48 /* ViewController.swift in Sources */,
 				4B11CFD41E2FB2830061FE48 /* AppDelegate.swift in Sources */,
@@ -306,6 +310,7 @@
 				4B11CFE71E2FB2830061FE48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
